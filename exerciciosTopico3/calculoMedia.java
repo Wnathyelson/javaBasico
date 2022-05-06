@@ -23,8 +23,6 @@ public class calculoMedia {
 
             System.out.println("A média das notas é: "+ media);
 
-
-
     }
 
 }

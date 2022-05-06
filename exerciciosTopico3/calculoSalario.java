@@ -10,12 +10,12 @@ public class calculoSalario {
 
         double calculoSalario;
 
-        System.out.println("Digite o valor por hora de trabalho: ");
+        System.out.println("Digite o valor por hora de trabalho R$: ");
         double valorHora = scanj.nextInt();
         System.out.println("Digite Quantas horas você trabalhou neste mês: ");
         int horaMensal = scanj.nextInt();
         calculoSalario = valorHora * horaMensal;
-        System.out.println("Seu salário deste mês é de: "+ calculoSalario);
+        System.out.println("Valor do salário: R$ "+ calculoSalario);
 
     }
 }
