@@ -34,7 +34,8 @@ public class tabuadaFor {
                                         break;
 
                                 case 4:
-                                        System.out.println(num + "/" + i + "= " + (num / i)+" Resto da divisão: "+
+                                        System.out.println(num + "/" + i + "= " + (num / i)+
+                                                " Resto da divisão: "+
                                                 (num%i));
                                         break;
 
