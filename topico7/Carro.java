@@ -1,6 +1,6 @@
 package home.nathyelson.programacaoBasicaJava.topico7;
 
-public class Carros {
+public class Carro {
 
 
     String marca;

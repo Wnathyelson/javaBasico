@@ -4,7 +4,7 @@ public class testeCarros {
 
     public static void main(String[] args) {
 
-        Carros caminhonete = new Carros();
+        Carro caminhonete = new Carro();
 
         caminhonete.marca = "Toyota";
         caminhonete.modelo = "Hilux";
