@@ -2,7 +2,7 @@ package home.nathyelson.programacaoBasicaJava.exerciciosTopico7.livros;
 
 import java.util.Date;
 
-public class Livros {
+public class Livro {
 
     String nomeLivro;
     String nomeAutor;

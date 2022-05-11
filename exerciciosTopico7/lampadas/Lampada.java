@@ -2,15 +2,31 @@ package home.nathyelson.programacaoBasicaJava.exerciciosTopico7.lampadas;
 
 public class Lampada {
 
-    public static void main(String[] args) {
+    String tipoLuz;
+    String marca;
+    String cor;
+    String voltagem;
 
-        Lampadas ligadesligaLampada = new Lampadas();
+    int potencia;
 
-        ligadesligaLampada.ligarLampada();
-        ligadesligaLampada.desligarLampada();
+    boolean ligada;
+
+    void ligarLampada() {
+
+        ligada = true;
+
+        System.out.println("Moveu o interruptor para cima!");
+        System.out.println("A lâmpada está ligada!");
+
+    }
+
+    void desligarLampada() {
+
+        ligada = false;
+
+        System.out.println("Moveu o interruptor para baixo!");
+        System.out.println("A lâmpada está desligada");
 
     }
 
 }
-
-

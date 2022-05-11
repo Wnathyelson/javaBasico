@@ -4,7 +4,7 @@ public class LivroDeLivraria {
 
     public static void main(String[] args) {
 
-        Livros mitologiaGrega = new Livros();
+        Livro mitologiaGrega = new Livro();
 
         mitologiaGrega.nomeLivro = "Percy Jackson, o mar de monstros";
         mitologiaGrega.nomeAutor = "Rick Riordan";

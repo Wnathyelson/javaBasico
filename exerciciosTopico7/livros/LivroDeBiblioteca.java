@@ -7,7 +7,7 @@ public class LivroDeBiblioteca {
 
     public static void main(String[] args) {
 
-        Livros livroEmprestado = new Livros();
+        Livro livroEmprestado = new Livro();
 
         livroEmprestado.nomeLivro = "Percy Jackson, o mar de monstros";
         livroEmprestado.codigoLivro = 12345;

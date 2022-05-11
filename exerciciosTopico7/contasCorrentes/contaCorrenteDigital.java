@@ -4,7 +4,7 @@ public class contaCorrenteDigital {
 
     public static void main(String[] args) {
 
-        contasCorrentes contaDigital = new contasCorrentes();
+        contaCorrente contaDigital = new contaCorrente();
         contaDigital.numeroConta = 1;
         contaDigital.statusContaEspecial = true;
         contaDigital.limiteEspecial = 500;

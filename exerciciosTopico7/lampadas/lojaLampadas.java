@@ -4,7 +4,7 @@ public class lojaLampadas {
 
     public static void main(String[] args) {
 
-        Lampadas lampadaLed = new Lampadas();
+        Lampada lampadaLed = new Lampada();
 
         lampadaLed.marca = "Philips";
         lampadaLed.tipoLuz = "LED";
