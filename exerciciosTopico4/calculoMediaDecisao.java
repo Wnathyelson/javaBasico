@@ -22,15 +22,11 @@ public class calculoMediaDecisao {
 
             System.out.println("Sua média é: " + media + "," + " Aprovado com distinção! Parabéns");
 
-        }
-
-        else if (media >= 7) {
+        } else if (media >= 7) {
 
             System.out.println("Sua média é: " + media + "," + " Aprovado!");
 
-        }
-
-        else{
+        } else {
 
             System.out.println("Sua média é: " + media + "," + " Reprovado");
 

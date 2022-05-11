@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class calculoSalario {
 
-    public static void main(String [] args){
+    public static void main(String[] args) {
 
         Scanner scanj = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class calculoSalario {
         System.out.println("Digite Quantas horas você trabalhou neste mês: ");
         int horaMensal = scanj.nextInt();
         calculoSalario = valorHora * horaMensal;
-        System.out.println("Valor do salário: R$ "+ calculoSalario);
+        System.out.println("Valor do salário: R$ " + calculoSalario);
 
     }
 }
