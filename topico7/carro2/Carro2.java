@@ -11,16 +11,8 @@ public class Carro2 {
 
     //as classes já possuem um construtor oculto e seria a mesma coisa que construir: Carro(){}.
 
-    Carro2() {
-
-        System.out.println("A classe Carro2 foi instanciada");
-
-        quantidadePassageiros = 5;
-
-    }
-
     Carro2(String marca, String modelo, String cor, int quantidadePassageiros, double capacidadeCombustivel,
-           double consumoCombustivel){
+           double consumoCombustivel) {
 
         this.marca = marca;
         this.modelo = modelo;
@@ -31,10 +23,11 @@ public class Carro2 {
 
     }
 
-    void exibirAutonomia() {
+    Carro2() {
 
-        System.out.println("A autonomia desse carro é de: " + capacidadeCombustivel * consumoCombustivel +
-                " Km/litro");
+        System.out.println("A classe Carro2 foi instanciada");
+
+        quantidadePassageiros = 5;
 
     }
 
@@ -45,10 +38,4 @@ public class Carro2 {
         return this.capacidadeCombustivel * this.consumoCombustivel;
     }
 
-    double obterQuantidadeCombustivel(double km) {
-
-        double calcularCombustível = km / consumoCombustivel;
-        return calcularCombustível;
-
-    }
 }

@@ -2,7 +2,7 @@ package home.nathyelson.programacaobasicaJava.exerciciostopico7.livros;
 
 import java.util.Date;
 
-public class LivroDeBiblioteca {
+public class LivrosDeBiblioteca {
 
 
     public static void main(String[] args) {

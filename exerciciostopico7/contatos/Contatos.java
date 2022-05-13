@@ -1,10 +1,10 @@
-package home.nathyelson.programacaobasicaJava.exerciciostopico7.agendatelefonica;
+package home.nathyelson.programacaobasicaJava.exerciciostopico7.contatos;
 
-public class ContatoAgenda {
+public class Contatos {
 
     public static void main(String[] args) {
 
-        AgendaTelefonica contato = new AgendaTelefonica();
+        Contato contato = new Contato();
         contato.nomeContato = "Nathyelson";
         contato.sobrenomeContato = "Lima";
         contato.emailContato = "wnathyelson@gmail.com";

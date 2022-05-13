@@ -1,6 +1,6 @@
 package home.nathyelson.programacaobasicaJava.topico7.carro2;
 
-public class TesteCarro2 {
+public class TesteCarros2 {
 
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class TesteCarro2 {
         System.out.println(executivo.cor);
         System.out.println(executivo.quantidadePassageiros);
 
-        System.out.println("A autonomia desse carro é de: "+executivo.obterAutonomia()+" Km/litro");
+        System.out.println("A autonomia desse carro é de: " + executivo.obterAutonomia() + " Km/litro");
 
     }
 }

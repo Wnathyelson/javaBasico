@@ -1,6 +1,6 @@
 package home.nathyelson.programacaobasicaJava.exerciciostopico7.livros;
 
-public class LivroDeLivraria {
+public class LivrosDeLivraria {
 
     public static void main(String[] args) {
 

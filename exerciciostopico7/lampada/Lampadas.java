@@ -1,4 +1,4 @@
-package home.nathyelson.programacaobasicaJava.exerciciostopico7.lampadas;
+package home.nathyelson.programacaobasicaJava.exerciciostopico7.lampada;
 
 public class Lampadas {
 
