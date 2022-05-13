@@ -1,4 +1,4 @@
-package home.nathyelson.programacaoBasicaJava.topico4;
+package home.nathyelson.programacaobasicaJava.topico4;
 
 public class controleLoopWhile {
 

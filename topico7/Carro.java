@@ -1,4 +1,4 @@
-package home.nathyelson.programacaoBasicaJava.topico7;
+package home.nathyelson.programacaobasicaJava.topico7;
 
 public class Carro {
 
@@ -9,6 +9,8 @@ public class Carro {
     int quantidadePassageiros;
     double capacidadeCombustivel;
     double consumoDeCombustivel;
+
+    //as classes já possuem um construtor oculto e seria a mesma coisa que construir: Carro(){}.
 
     void exibirAutonomia() {
 

@@ -1,4 +1,4 @@
-package home.nathyelson.programacaoBasicaJava.topico3;
+package home.nathyelson.programacaobasicaJava.topico3;
 
 public class curiosidadeInt {
 
