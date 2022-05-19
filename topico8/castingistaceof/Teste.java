@@ -17,21 +17,41 @@ public class Teste {
         Aluno aluno = new Aluno();
         Professor professor = new Professor();
 
-        if (pessoa instanceof Pessoa) {
+        /*if (pessoa instanceof Pessoa) {
             System.out.println("pessoa é do tipo Pessoa");
             if (aluno instanceof Aluno) {
-                System.out.println("pessoa é do tipo Pessoa");
+                System.out.println("aluno é do tipo Aluno");
                 if (professor instanceof Professor) {
-                    System.out.println("pessoa é do tipo Pessoa");
+                    System.out.println("professor é do tipo Professor");
                 }
-
             }
-        }
+        }*/
+
+        System.out.println(imprimirTipoPessoa(aluno));
+        System.out.println(imprimirTipoPessoa(professor));
+
     }
 
     public static String obterString() {
 
         return "Minha string";
     }
+
+    public static String imprimirTipoPessoa(Pessoa pessoa){
+
+        if(pessoa instanceof Aluno){
+
+            return "Tipo da pessoa é aluno";
+        }
+
+        if (pessoa instanceof Professor){
+
+            return "Tipo da pessoa é professor";
+
+        }
+
+        return "Tipo não definido!";
+    }
+
 }
 

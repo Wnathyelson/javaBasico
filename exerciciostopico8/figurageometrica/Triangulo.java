@@ -5,6 +5,9 @@ public class Triangulo extends Figura2D implements DimensaoSuperficial {
     private double base;
     private double altura;
 
+
+
+
     public double getBase() {
         return base;
     }
@@ -21,8 +24,9 @@ public class Triangulo extends Figura2D implements DimensaoSuperficial {
         this.altura = altura;
     }
 
-    @Override
+
     public double calcularArea() {
         return (altura * base) / 2;
     }
+
 }

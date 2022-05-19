@@ -19,4 +19,9 @@ public class Quadrado extends Figura2D implements DimensaoSuperficial {
         return lado * lado;
 
     }
+
+    @Override
+    public void imprimirArea() {
+
+    }
 }

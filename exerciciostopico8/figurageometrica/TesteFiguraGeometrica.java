@@ -50,15 +50,21 @@ public class TesteFiguraGeometrica {
 
             if (figuras instanceof Figura2D) {
                 Figura2D figura2D = (Figura2D) figuras;
-                System.out.println(figura2D.calcularArea());
+               // System.out.println(figura2D.calcularArea());
+
+                figura2D.imprimirArea();
 
             }
             if (figuras instanceof Figura3D) {
                 Figura3D figura3D = (Figura3D) figuras;
-                System.out.println(figura3D.calcularArea());
-                System.out.println(figura3D.calcularVolume());
+                //System.out.println(figura3D.calcularArea());
+                //System.out.println(figura3D.calcularVolume());
+
+                figura3D.imprimirArea();
+
 
             }
+
 
         }
 
